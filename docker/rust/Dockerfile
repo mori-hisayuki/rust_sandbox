@@ -23,4 +23,4 @@ RUN cargo install \
 EXPOSE 8080
 
 USER ${UNAME}
-# CMD ["catflap", "--", "cargo", "watch", "-x", "run"]
+CMD ["catflap", "--", "cargo", "watch", "-x", "run"]
